@@ -17,3 +17,4 @@ describe('Stack', () => {
     assert.strictEqual(stack.peek(), 6);
   });
 });
+

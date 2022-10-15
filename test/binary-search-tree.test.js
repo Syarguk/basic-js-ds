@@ -20,7 +20,7 @@ describe('Binary search tree', () => {
     it.optional('correct inheritance', () => {
       expect(new BinarySearchTree()).to.be.an.instanceOf(BinarySearchTree);
     });
-
+    
     it.optional('has methods', () => {
       const instance = new BinarySearchTree();
       expect(instance).to.respondTo('root');
